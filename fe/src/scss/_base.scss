@@ -1,0 +1,58 @@
+:global {
+  html,
+  body {
+    background-color: #ecf0f1;
+    height: 100%;
+    width: 100%;
+    & *:not(i) {
+      font-family: "Nunito", sans-serif;
+      color: $text_black;
+    }
+    .input.is-active,
+    .input.is-focused,
+    .input:active,
+    .input:focus,
+    .textarea.is-active,
+    .textarea.is-focused,
+    .textarea:active,
+    .textarea:focus {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    #app {
+      height: inherit;
+      display: grid;
+    }
+  }
+  .materialIcons,
+  .material-icons {
+    direction: ltr;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'liga';
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  .hidden {
+    display: none!important;
+  }
+  .divider {
+    width: 2px;
+    margin: 6px 0;
+    height: 4vh;
+    background: #e7e7e7;
+  }
+}

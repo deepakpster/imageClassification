@@ -1,0 +1,49 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "react",
+        "flowtype"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:react/recommended",
+        "plugin:flowtype/recommended"
+    ],
+    "rules": {
+        "indent": [
+            1,
+            "tab",
+            {
+                "SwitchCase": 1,
+                "VariableDeclarator": 1
+            }
+        ],
+        "no-tabs": 0,
+        "react/prop-types": 0,
+        "react/jsx-indent": [
+            1,
+            "tab"
+        ],
+        "react/jsx-indent-props": [
+            1,
+            "tab"
+        ],
+        "react/prefer-stateless-function": [ 0, { "ignorePureComponents": true }],
+        "max-len": 0,
+        "prefer-destructuring": 0,
+        "import/prefer-default-export": 0
+    }
+}

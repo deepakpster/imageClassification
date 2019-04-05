@@ -1,0 +1,18 @@
+:local {
+  nav {
+    background-color: #0097e6!important;
+    a {
+      color: white!important;
+    }
+  }
+  .formInline {
+    display: flex;
+    margin: 0 2vmin;
+    .formGroup {
+      flex: 1!important;
+    }
+  }
+  img {
+    max-width: 70vmin;
+  }
+}

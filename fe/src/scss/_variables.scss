@@ -1,0 +1,23 @@
+$font_12px: 12px;
+$font_13px: 13px;
+$font_14px: 14px;
+
+$text_black: #101010;
+$text_grey: #747f85;
+$text_grey_light: #979797;
+$text_secondary: #3c3c3c;
+
+$border_grey_light: #e2e9e9;
+$border_blue_light: #4798F7;
+
+$green_brand: #3DAFB9;
+
+$primary: $border_blue_light !default;
+$secondary: $green_brand !default;
+
+$btn_contact_primary: #2196f3;
+$btn_contact_secondary: #2196f3;
+
+$backgroung_light: #f7f7f7;
+
+@import '~bootstrap/scss/bootstrap';

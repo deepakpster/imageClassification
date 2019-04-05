@@ -1,0 +1,14 @@
+.form-control {
+  height: calc(1.5em + 0.95rem + 2px);
+  padding: .375rem 0.75rem;
+  font-size: 0.88rem;
+  font-weight: 200;
+  line-height: 2;
+  color: $text_black;
+  background-clip: padding-box;
+  border-radius: 0.5rem;
+  &:focus {
+    border-color: $border_blue_light;
+    box-shadow: none;
+  }
+}
